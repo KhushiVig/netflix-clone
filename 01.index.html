@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Clone</title>
+
+  <link rel="stylesheet" href="02.style.css" />
+  <link rel="icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-left">
+    <img src="assets/images/netflix-logo.png" class="logo" alt="Netflix Logo" />
+
+    <ul class="nav-links">
+      <li>Home</li>
+      <li>TV Shows</li>
+      <li>Movies</li>
+      <li>New & Popular</li>
+      <li>My List</li>
+      <li>Browse by Languages</li>
+    </ul>
+  </div>
+
+  <div class="nav-right">
+    <i class="fa-solid fa-magnifying-glass nav-icon" aria-label="Search"></i>
+    <span class="kids">Children</span>
+    <i class="fa-regular fa-bell nav-icon" aria-label="Notifications"></i>
+    <img src="assets/images/pro.png" class="profile" alt="User Profile" />
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h1>DARK</h1>
+    <p>
+      A missing child sets four families on a frantic hunt for answers as they
+      unearth a mind-bending mystery that spans three generations.
+    </p>
+
+    <div class="hero-buttons">
+      <button class="btn play" id="playBtn">
+        <i class="fa-solid fa-play"></i> Play
+      </button>
+
+      <button class="btn info">
+        <i class="fa-solid fa-circle-info"></i> More Info
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO MODAL -->
+<div id="videoModal" class="video-modal">
+  <span class="close-btn" id="closeBtn" aria-label="Close video">✖</span>
+
+  <video id="trailer" controls>
+    <source
+      src="assets/videos/Dark_Teaser_HD_Netflix_720P.mp4"
+      type="video/mp4"
+    />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<!-- TRENDING NOW -->
+<section class="row">
+  <h2>Trending Now</h2>
+  <div class="row-posters">
+    <img src="assets/images/StrangerThings.jpg" alt="Stranger Things">
+    <img src="assets/images/F1_movie.png" alt="F1 Movie">
+    <img src="assets/images/dune.jpg" alt="Dune">
+    <img src="assets/images/The nun.jpg" alt="The Nun">
+    <img src="assets/images/dark.jpg" alt="Dark Series">
+    <img src="assets/images/Opp.jpg" alt="Oppenheimer">
+    <img src="assets/images/dark knight.jpg" alt="The Dark Knight">
+    <img src="assets/images/inception.jpg" alt="Inception">
+  </div>
+</section>
+
+<!-- WATCH AGAIN -->
+<section class="row">
+  <h2>Watch Again</h2>
+  <div class="row-posters">
+    <img src="assets/images/Suits.jpg" alt="Suits">
+    <img src="assets/images/sheldon.jpg" alt="Young Sheldon">
+    <img src="assets/images/kota factory.jpg" alt="Kota Factory">
+    <img src="assets/images/deadpoetssociety.jpg" alt="Dead Poets Society">
+    <img src="assets/images/good doc.jpg" alt="The Good Doctor">
+    <img src="assets/images/Annabelle.jpg" alt="Annabelle">
+    <img src="assets/images/interstellar.jpg" alt="Interstellar">
+    <img src="assets/images/batmann.jpg" alt="Batman">
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="socials">
+    <i class="fa-brands fa-facebook-f" aria-label="Facebook"></i>
+    <i class="fa-brands fa-instagram" aria-label="Instagram"></i>
+    <i class="fa-brands fa-twitter" aria-label="Twitter"></i>
+    <i class="fa-brands fa-youtube" aria-label="YouTube"></i>
+  </div>
+
+  <div class="footer-links">
+    <div>
+      <span>Audio Description</span>
+      <span>Investor Relations</span>
+      <span>Legal Notices</span>
+    </div>
+    <div>
+      <span>Help Centre</span>
+      <span>Jobs</span>
+      <span>Cookie Preferences</span>
+    </div>
+    <div>
+      <span>Gift Cards</span>
+      <span>Terms of Use</span>
+      <span>Corporate Information</span>
+    </div>
+    <div>
+      <span>Media Centre</span>
+      <span>Privacy</span>
+      <span>Contact Us</span>
+    </div>
+  </div>
+
+  <p class="copyright">© 1997–2026 Netflix, Inc.</p>
+</footer>
+
+<script src="03.script.js"></script>
+</body>
+</html>
