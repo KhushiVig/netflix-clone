@@ -136,10 +136,10 @@ GitHub: [https://github.com/KhushiVig](https://github.com/KhushiVig)
 
 ## Acknowledgments
 
-Netflix for UI and design inspiration
-Font Awesome for icons
-MDN Web Docs
-Open-source frontend learning resources
+- Netflix for UI and design inspiration
+- Font Awesome for icons
+- MDN Web Docs
+- Open-source frontend learning resources
 
 
 
