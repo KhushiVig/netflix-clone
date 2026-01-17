@@ -1,0 +1,105 @@
+# Netflix Clone
+
+A responsive front-end clone of the Netflix streaming platform built using HTML, CSS, and JavaScript.  
+This project focuses on recreating the Netflix user interface, implementing smooth interactions, and building a clean, responsive layout suitable for portfolio, resume, and internship applications.
+
+## Project Screenshots
+
+Hero Banner and Navigation  
+![Hero Section](assets/screenshots/hero-section.png)
+
+Trending Now Section  
+![Trending Now](assets/screenshots/trending-now.png)
+
+Watch Again Section  
+![Watch Again](assets/screenshots/watch-again.png)
+
+All screenshots are taken directly from the working project and should be placed inside the `screenshots` folder at the root of the repository.
+
+## Description
+
+The Netflix Clone replicates the visual appearance and basic interaction patterns of the official Netflix web interface.  
+It includes a fixed top navigation bar, a featured hero banner highlighting selected content, horizontally scrollable rows for movies and series, hover-based card animations, and a video modal that plays a trailer when the Play button is clicked.
+
+This project was created to strengthen frontend development skills and gain hands-on experience with real-world UI structures.  
+It is a fully client-side project with no backend dependency and does not use any external frameworks.
+
+
+## Technologies Used
+
+1. HTML5 is used to structure the web pages and define the layout of UI components.
+2. CSS3 is used for styling, layout design, animations, transitions, and responsive behavior.
+3. JavaScript (Vanilla JS) is used to handle user interactions such as button clicks, modal open and close behavior, keyboard events, and video playback control.
+4. Font Awesome is used for icons in the navigation bar and footer.
+
+## Features
+
+1. Fixed Netflix-style navigation bar with menu items and icons
+2. Large hero banner showcasing featured content with Play and More Info buttons
+3. Horizontally scrollable movie and series rows
+4. Hover effects on movie cards for improved user experience
+5. Video modal that plays a trailer and supports keyboard-based closing
+6. Responsive layout that adapts to different screen sizes
+7. Clean and organized folder structure for assets and screenshots
+
+## Usage
+
+This project can be used as a frontend portfolio project, a practice project for HTML, CSS, and JavaScript, a UI reference for streaming platform designs, or a base template for future enhancements such as backend integration or framework migration.
+
+## Getting Started
+
+Follow the instructions below to run the project locally.
+
+## Prerequisites
+
+Any modern web browser such as Chrome, Edge, or Firefox  
+Windows, macOS, or Linux operating system  
+A code editor such as Visual Studio Code (recommended)
+
+## Installation
+
+Clone the repository and navigate to the project directory.
+
+```bash
+git clone https://github.com/KhushiVig/netflix-clone.git
+cd netflix-clone
+```
+
+Ensure the following folder structure is maintained:
+
+* All image assets are stored inside `assets/images/`
+* All video files are stored inside `assets/videos/`
+* All project screenshots are stored inside `screenshots/`
+
+No additional setup or configuration is required.
+
+## Executing the Program
+
+Open the `index.html` file directly in any modern web browser.
+Alternatively, you can use Live Server in VS Code for a better development experience.
+
+No terminal command is required to run the project.
+
+## Help and Common Issues
+
+Images not loading usually indicate incorrect relative paths inside the assets folders.
+Video not playing may occur if the video file is missing or not in MP4 format.
+Icons not appearing usually indicate a missing internet connection required for the Font Awesome CDN.
+If the modal does not close, use the close button or press the Escape key.
+
+## Version History
+
+Version 0.2 includes video modal functionality, improved responsiveness, and enhanced hover animations.
+Version 0.1 is the initial release with static layout and core UI sections.
+
+## Author
+
+Khushi Vig
+GitHub: [https://github.com/KhushiVig](https://github.com/KhushiVig)
+
+## Acknowledgments
+
+Netflix for UI and design inspiration
+Font Awesome for icons
+MDN Web Docs
+Open-source frontend learning resources
